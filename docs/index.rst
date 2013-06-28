@@ -59,13 +59,13 @@ To install globally with `pip` (if you have pip-1.3 or greater installed globall
 
 ::
 
- $ [sudo] pip install virtualenv
+ $ pip install --user virtualenv
 
 Or to get the latest unreleased dev version:
 
 ::
 
- $ [sudo] pip install https://github.com/pypa/virtualenv/tarball/develop
+ $ pip install --user https://github.com/pypa/virtualenv/tarball/develop
 
 
 To install globally from source:
@@ -75,7 +75,7 @@ To install globally from source:
  $ curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-X.X.tar.gz
  $ tar xvfz virtualenv-X.X.tar.gz
  $ cd virtualenv-X.X
- $ [sudo] python setup.py install
+ $ python setup.py install --user
 
 
 To *use* locally from source:
